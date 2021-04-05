@@ -1,0 +1,6 @@
+name: stevens-and-lee
+recipe: pantheon
+config:
+  framework: wordpress
+  site: stevens-and-lee
+  id: 52f83a4c-46f8-4517-8212-526501fb9e40
