@@ -1,0 +1,311 @@
+.ft-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.ft-fs18 {
+  font-size: 18px;
+}
+
+#Footer .ft-fs20 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+#Footer .mr-bt20 {
+  margin-bottom: 20px;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.ft-uppercase {
+  text-transform: uppercase;
+}
+
+#Footer {
+  background: #001730;
+  color: #fff;
+}
+
+#Footer a {
+  color: #fff;
+}
+
+#Footer p {
+  margin: 0px;
+}
+
+#Footer a:hover {
+  text-decoration: none;
+}
+
+.btn-ft {
+  padding: 15px 35px;
+  border-radius: 0px !important;
+  background: #A2CD50 !important;
+}
+
+#Footer .btn-ft a {
+  color: #000;
+}
+
+.ft-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mr10 {
+  margin-right: 10px;
+}
+
+.col-1, .col-2 {
+  padding-top: 100px;
+}
+
+.col-1 .ft-link:not(:last-of-type), .col-2 .ft-link:not(:last-of-type) {
+  margin-bottom: 20px;
+  display: block;
+}
+
+.col-2 {
+  margin-top: 40px;
+}
+
+.ft-logo img {
+  max-width: 100%;
+}
+
+.ft-logo, .ft-social {
+  margin-bottom: 40px;
+}
+
+#Footer .social-txt, #Footer .cta-form .title {
+  font-weight: 300;
+}
+
+#Footer .social-txt {
+  font-size: 22px;
+  margin-right: 20px;
+}
+
+.col-3 {
+  position: relative;
+}
+
+.col-3:after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: -40px;
+  background: #3C4D60;
+  width: 1px;
+  height: 100%;
+}
+
+@media (max-width: 575px) {
+  .col-1, .col-2 {
+    padding-top: 0px;
+  }
+  #Footer .widgets_wrapper .widget {
+    padding: 0px;
+  }
+  .ft-copyright {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .ft-copyright {
+    margin-bottom: 10px;
+  }
+  .ft-line {
+    display: none;
+  }
+}
+
+.banner-title {
+  max-width: 600px;
+}
+
+.hidden-txt {
+  visibility: hidden;
+}
+
+.mega-menutxt {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 500;
+}
+
+.header-simple #Top_bar .top_bar_right {
+  display: block;
+}
+
+.header-simple #Top_bar .column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-simple .top_bar_left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu-toggle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#Header .top_bar_right {
+  background: transparent;
+}
+
+.icon-search-fine:before {
+  color: #fff;
+  font-size: 30px;
+}
+
+#Top_bar a#search_button, #Top_bar a.responsive-menu-toggle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+}
+
+#Top_bar a#search_button:hover, #Top_bar a.responsive-menu-toggle:hover {
+  text-decoration: none;
+}
+
+#Top_bar .container {
+  border-bottom: 1px solid #D8D8D8;
+}
+
+#Top_bar .menu_wrapper {
+  -webkit-box-flex: 7;
+      -ms-flex: 7;
+          flex: 7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#Top_bar .menu-toggle {
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#Top_bar .menu-toggle .responsive-menu-toggle {
+  position: unset;
+  top: unset;
+  right: unset;
+  margin-top: unset;
+}
+
+#Top_bar a#search_button {
+  border-left: 1px solid #D8D8D8;
+  border-right: 1px solid #D8D8D8;
+  margin: 0px;
+  padding: 0px 20px 0px 10px;
+}
+
+.menu-title {
+  font-size: 21px;
+  color: #fff;
+}
+
+#Top_bar .search_wrapper .icon_search {
+  left: 10px;
+  top: 20px;
+}
+
+#Top_bar.is-sticky .container {
+  border-bottom: 0px;
+}
+
+@media only screen and (min-width: 1240px) {
+  #Top_bar.is-sticky .top_bar_right {
+    top: 7px;
+    height: auto;
+  }
+  #Top_bar.is-sticky {
+    height: 90px;
+  }
+  #Top_bar .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+#Side_slide #menu ul li.submenu .menu-toggle:after {
+  content: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMy4zNDUiIGhlaWdodD0iMTIuMDkxIiB2aWV3Qm94PSIwIDAgMjMuMzQ1IDEyLjA5MSI+DQogIDxwYXRoIGlkPSJpY29uLWRvd24tb3Blbi1iaWciIGQ9Ik0wLDEwLDExLDAsMjIsMTAiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAuNjczIDEuMzUxKSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS13aWR0aD0iMiIvPg0KPC9zdmc+DQo=);
+}
+
+#Side_slide #menu ul li.hover > .menu-toggle:after {
+  content: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMy4zNDUiIGhlaWdodD0iMTIuMDkxIiB2aWV3Qm94PSIwIDAgMjMuMzQ1IDEyLjA5MSI+DQogIDxwYXRoIGlkPSJpY29uLWRvd24tb3Blbi1iaWciIGQ9Ik0wLTEwLDExLDAsMjItMTAiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAuNjczIDEwLjc0KSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS13aWR0aD0iMiIvPg0KPC9zdmc+DQo=);
+}
+
+#Side_slide .close-wrapper a.close {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  right: 20px;
+  position: absolute;
+  top: 20px;
+}
+
+#Side_slide .close-wrapper a.close:hover {
+  text-decoration: none;
+}
+
+#Side_slide .extras .extras-wrapper .icon {
+  display: none;
+}
+
+#Side_slide .social {
+  text-align: left;
+}
+/*# sourceMappingURL=custom.css.map */
